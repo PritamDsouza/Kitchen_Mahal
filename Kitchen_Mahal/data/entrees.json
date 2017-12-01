@@ -1,0 +1,73 @@
+﻿[
+  {
+    "entreeId": "031",
+    "entreeName": "Mix veg Gravy",
+    "description": "Vegetables cooked in medium spices and fresh cream.",
+    "imageUrl": "images/Entrees_sub/ent1.jpg",
+    "price": 10.99
+
+  },
+  {
+    "entreeId": "032",
+    "entreeName": "Kadai Panner",
+    "description": "paneer in a thick gravy made up of cream, tomatoes and spices from the Indian subcontinent",
+    "imageUrl": "images/Entrees_sub/ent2.jpg",
+    "price": 11.99
+  },
+  {
+    "entreeId": "033",
+    "entreeName": "Mutton kadai",
+    "description": "Mutton pieces fried in a kadai and cooked with tomatoes, onion paste, ginger-garlic pastes and other ingredient",
+    "imageUrl": "images/Entrees_sub/ent3.jpg",
+    "price": 8.99
+  },
+  {
+    "entreeId": "034",
+    "entreeName": "Tandoori Chicken",
+    "description": "Yoghurt and spice marinated chicken cooked in a tandoor, a cylindrical clay oven",
+    "imageUrl": "images/Entrees_sub/ent4.jpg",
+    "price": 12.59
+  },
+  {
+    "entreeId": "035",
+    "entreeName": "Butter chicken",
+    "description": "Butter chicken or murgh makhani is an Indian dish of chicken in a mildly spiced curry sauce.",
+    "imageUrl": "images/Entrees_sub/ent5.jpg",
+    "price": 5.99
+  },
+  {
+    "entreeId": "036",
+    "entreeName": "Chole Masala",
+    "description": "Chana masala,is a dish in Indian cuisine and Pakistani cuisine. The main ingredient is a variety of chickpea called chana or kala chana",
+    "imageUrl": "images/Entrees_sub/ent6.jpg",
+    "price": 15.99
+  },
+  {
+    "entreeId": "037",
+    "entreeName": "Biryani",
+    "description": "Biryani, also known as biriyani or biriani, is a South Asian mixed rice dish with its origins among the Muslims of the Indian subcontinent",
+    "imageUrl": "images/Entrees_sub/ent7.jpg",
+    "price": 10.59
+  },
+  {
+    "entreeId": "038",
+    "entreeName": "Palal Paneer",
+    "description": "Palak paneer consist of paneer in a thick paste made from puréed spinach and seasoned with garlic, garam masala, and other spices",
+    "imageUrl": "images/Entrees_sub/ent8.jpg",
+    "price": 20.99
+  },
+  {
+    "entreeId": "039",
+    "entreeName": "Dosa",
+    "description": "Dosa is a type of pancake made from a fermented batter.It's main ingredients are rice and black gram",
+    "imageUrl": "images/Entrees_sub/ent9.jpg",
+    "price": 6.59
+  },
+   {
+    "entreeId": "040",
+    "entreeName": "Daal Makhni",
+    "description": "A Punjabi mixed lentil curry generally made with lots of butter and cre",
+    "imageUrl": "images/Entrees_sub/ent10.jpg",
+    "price": 9.59
+  }
+]

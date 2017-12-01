@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="KitchenMahal">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../stylesheets/index.css" rel="stylesheet" />
+    <script src="javascripts/angular.min.js"></script>
+    <script src="javascripts/angular-resource.min.js"></script>
+    <script src="javascripts/angular-route.min.js"></script>
+    <script src="../javascripts/index.js"></script>
+</head>
+<body>
+    <div align="center">
+        <h2>Check availability for table reservation</h2>
+        <form ng-controller="tableReservation" ng-submit="checkAvailability()">
+            <table>
+                <tr>
+                    <td><label>People: </label></td>
+                    <td><select name="People" ng-model="People">
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                            <option value="6">6</option>
+                            <option value="8">8</option>
+                            <option value="10">10</option>
+                        </select></td>
+
+                    <td><label>Date: </label></td>
+                    <td><input type="date" ng-model="BookingDate"></td>
+
+                    <td><label>Time: </label></td>
+                    <td><select name="People" ng-model="BookingTime">
+                            <option value="7.00 PM">7.00 PM</option>
+                            <option value="7.30 PM">7.30 PM</option>
+                            <option value="8.00 PM">8.00 PM</option>
+                            <option value="8.30 PM">8.30 PM</option>
+                            <option value="9.00 PM">9.00 PM</option>
+                            <option value="9.30 PM">9.30 PM</option>
+                            <option value="10.00 PM">10.00 PM</option>
+                            <option value="10.30 PM">10.30 PM</option>
+                            <option value="11.00 PM">11.00 PM</option>
+                            <option value="11.30 PM">11.30 PM</option>
+                        </select></td>
+
+                    <td><input type="submit" value="Book Table" /></td>
+                </tr>
+            </table>
+            <h2 style="color:blue">{{message}}</h2>
+        </form>
+    </div>
+</body>
+</html>

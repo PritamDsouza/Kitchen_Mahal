@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="KitchenMahal">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../stylesheets/index.css" rel="stylesheet" />
+    <script src="javascripts/angular.min.js"></script>
+    <script src="javascripts/angular-resource.min.js"></script>
+    <script src="javascripts/angular-route.min.js"></script>
+    <script src="../javascripts/index.js"></script>
+</head>
+<body>
+    <div align="center">
+        <h2>Customer Account Creation Page</h2>
+        <form ng-controller="contactUs" ng-submit="saveMessage()">
+            <table>
+                <tr>
+                    <td><label>Your Name: </label></td>
+                    <td><input type="text" name="name" ng-model="Name"/></td>
+                </tr>
+                <tr>
+                    <td><label>Your Email:</label></td>
+                    <td><input type="email" name="email"ng-model="Email"/></td>
+                </tr>
+                <tr>
+                    <td><label>Your Message</label></td>
+                    <td><textarea name="message" ng-model="Message"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Clear"/></td>
+                    <td><input type="submit" value="Send Message"/></td>
+                </tr>
+            </table>    
+            <h2 style="color:blue">{{message}}</h2>
+        </form>    
+    </div>
+</body>
+</html>

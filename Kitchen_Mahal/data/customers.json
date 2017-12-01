@@ -1,0 +1,58 @@
+[
+  {
+    "address": "2305 Bay Area Blvd",
+    "contactNo": "8323964026",
+    "emailAddress": "DsouzaP4384@uhcl.edu",
+    "firstName": "pritam",
+    "lastName": "Dsouza",
+    "password": "123456",
+    "state": "TX",
+    "username": "DsouzaP4384",
+    "zipcode": "77058"
+  },
+  {
+    "firstName": "Rohit",
+    "lastName": "Dsouza",
+    "emailAddress": "rohit@gmail.com",
+    "contactNo": "7723965082",
+    "address": "2305 Bay Area Blvd",
+    "zipcode": "77068",
+    "state": "NY",
+    "username": "rohit789",
+    "password": "753625"
+  },
+  {
+    "firstName": "Pranali",
+    "lastName": "Patil",
+    "emailAddress": "PatilP5303@uhcl.edu",
+    "contactNo": "8323964020",
+    "address": "2305 Bay Area Blvd",
+    "zipcode": "77058",
+    "state": "TX",
+    "username": "Patil5303",
+    "password": "5303"
+  },
+  { "firstName": "ddwdw" },
+  {
+    "firstName": "ronit",
+    "lastName": "jha",
+    "emailAddress": "ronitjha2011@gmail.com",
+    "contactNo": 2819125735,
+    "address": "2000 bay area",
+    "zipcode": "77058",
+    "state": "HI",
+    "username": "ronit",
+    "password": "jha"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "cruise",
+    "emailAddress": "tom.cruise@gmail.com",
+    "contactNo": "83296541203",
+    "address": "2305 bay area",
+    "zipcode": "77069",
+    "state": "OH",
+    "username": "tom789",
+    "password": "789"
+  }
+]

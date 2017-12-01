@@ -1,0 +1,73 @@
+﻿[
+  {
+    "desertId": "011",
+    "desertName": "Gulab Jamun",
+    "description": "An Indian cheesecake made with paneer, hung yoghurt and gulab jamuns",
+    "imageUrl": "images/Dessert_sub/dessert1.jpg",
+    "price": 8.99
+  },
+  {
+    "desertId": "012",
+    "desertName": "Kheer",
+    "description": "Kheer is a rice pudding from the cuisine of the Indian Subcontinent,",
+    "imageUrl": "images/Dessert_sub/dessert2.jpg",
+    "price": 5.99
+  },
+  {
+    "desertId": "013",
+    "desertName": "Kufi",
+    "description": "Kulfi is a popular frozen dairy dessert from the Indian subcontinent.",
+    "imageUrl":  "images/Dessert_sub/dessert3.jpg",
+    "price": 2.99
+  },
+  {
+    "desertId": "014",
+    "desertName": "Jalebi",
+    "description": "Jalebi, also known as Zulbia, is a sweet popular in countries of South Asia, West Asia, North Africa, and East Africa",
+    "imageUrl": "images/Dessert_sub/dessert4.jpg",
+    "price": 8.99
+  },
+  {
+    "desertId": "015",
+    "desertName": "Halwa",
+    "description": "Most common are the ones made from semolina, ghee and sugar, garnished with dried fruits and nuts",
+    "imageUrl": "./images/Dessert_sub/dessert5.jpg",
+    "price": 4.99
+  },
+  {
+    "desertId": "016",
+    "desertName": "Barfi",
+    "description": "Barfi, barfee, or burfi is a dense milk based sweet confectionery from the Indian Subcontinent, a type of mithai",
+    "imageUrl": "images/Dessert_sub/dessert6.jpg",
+    "price": 9.99
+  },
+  {
+    "desertId": "017",
+    "desertName": "Badam Milk",
+    "description": "Almond milk is a plant milk manufactured from almonds",
+    "imageUrl": "images/Dessert_sub/dessert7.jpg",
+    "price": 4.69
+  },
+  {
+    "desertId": "018",
+    "desertName": "kala Jamun",
+    "description": "kala jamuns made with khoya and paneer.",
+    "imageUrl": "images/Dessert_sub/dessert8.jpg",
+    "price": 10.99
+  },
+  {
+    "desertId": "019",
+    "desertName": "Peda",
+    "description": "Ingredients are khoa, sugar and traditional flavorings, including cardamom seeds, pistachio nuts and saffron",
+    "imageUrl": "images/Dessert_sub/dessert9.jpg",
+    "price": 6.99
+  },
+   {
+    "desertId": "020",
+    "desertName": "Boondi",
+    "description": "Boondi is a Rajasthani desert made from sweetened, fried chickpea flour",
+    "imageUrl": "images/Dessert_sub/dessert10.jpg",
+    "price": 7.99
+  }
+
+]

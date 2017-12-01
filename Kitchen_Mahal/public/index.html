@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="KitchenMahal">
+<head>
+    <meta charset="utf-8" />
+    <title>Kitchen Mahal</title>   
+    <link href="stylesheets/index.css" rel="stylesheet" />
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-resource/angular-resource.js"></script>
+    <script src="javascripts/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="javascripts/index.js"></script>
+</head>
+<body>
+    <div class="mainbody">
+        <header>
+            <a ui-sref-active="active" ui-sref="Home"><img src="images/logo.png"></a>
+            <div ui-view="login">
+                <form ng-controller="loginCustomer" ng-submit="signin()">
+                    <table ng-hide="currentUserLoggedIn">
+                        <tr>
+                            <td>UserName: </td>
+                            <td><input type="text" name="UserName" ng-model="UserName" required /></td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" name="Password" ng-model="Password" required /></td>
+                        </tr>
+                        <tr>
+                            <td><input type="reset" value="Reset" /></td>
+                            <td><input type="submit" value="Sign In" /></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">{{message}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><a ui-sref-active="active" ui-sref="SignUp">New Customer?</a></td>
+                        </tr>
+                    </table>
+                    <table ng-show="currentUserLoggedIn">
+                        <tr>
+                            <td>{{username}}</td>
+                            <td><input type="button" value="logout" ng-click="logout()"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><a ui-sref-active="active" ui-sref="OrderHistory">Order History</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>  
+            <h1>Kitchen Mahal</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a ui-sref-active="active" ui-sref="Home">Home</a></li>
+                <li><a ui-sref-active="active" ui-sref="Aboutus">About us</a></li>
+                <li><a ui-sref-active="active" ui-sref="Menu">Menu</a></li>
+                <li><a ui-sref-active="active" ui-sref="TableReservation">Table Reservation</a></li>
+                <li><a ui-sref-active="active" ui-sref="Contactus">Contact us</a></li>
+            </ul>
+            <ul style="float:right;">
+                <li><a ui-sref-active="active" ui-sref="Orders">Orders</a></li>
+            </ul>
+        </nav>
+
+        <main ui-view="main">
+            
+        </main>
+
+        <footer align="center">
+            <br>
+            <h2>OUR ADDRESS:</h2>
+            <p>
+                2305 Bay Area Blvd <br> Houston , TX 77058<br><br>
+                Mob: 832-396-4026<br><br>
+                Email: <a href="DsouzaJha@kitchenmahal.com">DsouzaJha@kitchenmahal.com</a><br><br>
+                <Bold>OPENING TIMES:</Bold><br><br>
+                Monday to Sunday<br>
+                11 am to 10 pm <br><br>
+            </p>
+            <h4>&copy; kitchenmahal</h4>
+        </footer>
+
+
+    </div>    
+</body>
+</html>

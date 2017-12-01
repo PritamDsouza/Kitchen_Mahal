@@ -1,0 +1,4 @@
+C:\Users\hp\Desktop\MIS Spring SEM\IAD\IAD Project\Kitchen_Mahal\Kitchen_Mahal\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Pritam\Documents\Visual Studio 2017\Projects\Kitchen_Mahal\Kitchen_Mahal\obj\Debug\Kitchen_Mahal.njsprojResolveAssemblyReference.cache
+C:\Users\Pritam\Documents\Visual Studio 2017\Projects\Kitchen_Mahal\Kitchen_Mahal\obj\Debug\Kitchen_Mahal.njsproj.CoreCompileInputs.cache
+C:\Users\Pritam\Documents\Visual Studio 2017\Projects\Kitchen_Mahal\Kitchen_Mahal\bin\Microsoft.NodejsTools.WebRole.dll

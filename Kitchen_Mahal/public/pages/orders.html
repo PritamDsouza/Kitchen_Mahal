@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="KitchenMahal">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="javascripts/angular/angular.js"></script>
+    <script src="javascripts/angular-resource/angular-resource.js"></script>
+    <script src="javascripts/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../javascripts/index.js"></script>
+</head>
+<body>
+    <form ng-controller="cart">
+        <table id="cart" align="center">
+            <tr style="background-color:maroon;color:navajowhite;">
+                <th colspan="2">Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="item in items">
+                <td><img src="{{item.imageUrl}}" height="100" width="100" hspace="20" vspace="20" /></td>
+                <td>{{item.foodName}}<input type="hidden" ng-model="item.foodId" /></td>
+                <td>{{item.price}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.totalPrice}}</td>
+                <td><input type="submit" ng-click="removeItem(item.foodId)" value="Remove Item"></td>
+            </tr>
+            <tr>
+                <td colspan="6" ng-hide="showCheckoutPage">
+                    <input type="submit" value="Checkout" ng-click="checkout(items)"/>
+                </td>
+            </tr>
+            <tr ng-show="showCheckoutPage">
+                <td colspan="6">Total Amount: {{totalAmount}}</td>
+            </tr>
+            <tr ng-show="showCheckoutPage">
+                <td colspan="6"><input type="submit" value="Pay" ng-click="DisplayPaymentMessage()"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

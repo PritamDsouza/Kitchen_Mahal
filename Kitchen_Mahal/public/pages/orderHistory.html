@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form ng-controller="OrderHistory">
+        <table ng-repeat="item in items" align="center">
+            <tr>
+                <th>OrderId: </th>
+                <th>{{item.orderId}}</th>
+            </tr>
+            <tr>
+                <td>OrderDate: </td>
+                <td>{{item.orderDate}}</td>
+            </tr>
+            <tr>
+                <td>UserName: </td>
+                <td>{{item.username}}</td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td>{{item.emailAddress}}</td>
+            </tr>
+            <tr>
+                <td>Address: </td>
+                <td>{{item.address}}</td>
+            </tr>
+            <tr>
+                <td>Total Amount: </td>
+                <td>{{item.totalAmount}}</td>
+            </tr>
+            <tr style="color:blue;">{{message}}</tr>
+        </table>
+    </form>
+</body>
+</html>

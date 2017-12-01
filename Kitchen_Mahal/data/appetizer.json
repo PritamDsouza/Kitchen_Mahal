@@ -1,0 +1,73 @@
+﻿[
+  {
+    "appetizerId": "021",
+    "appetizerName": "Pakora",
+    "description": "Deep fried snack that are made with chickpea flour, salt, light spices and a main ingredient like onion or a vegetable",
+    "imageUrl": "images/Appetiser_sub/app1.jpg",
+    "price": 10.99
+  },
+  {
+    "appetizerId": "022",
+    "appetizerName": "Dhokla",
+    "description": "It is made with a fermented batter derived from rice and split chickpeas",
+    "imageUrl": "images/Appetiser_sub/app2.jpg",
+    "price": 9.99
+  },
+  {
+    "appetizerId": "023",
+    "appetizerName": "Onion Pakora",
+    "description": " onion fritters made with gram flour are a popular indian street food.",
+    "imageUrl": "images/Appetiser_sub/app3.jpg",
+    "price": 12.99
+  },
+  {
+    "appetizerId": "024",
+    "appetizerName": "Chilli Bajji",
+    "description": "Indian snack consisting of chili and potato stuffing, served hot with tomato sauce or occasionally with mint",
+    "imageUrl": "images/Appetiser_sub/app4.jpg",
+    "price": 18.99
+  },
+  {
+    "appetizerId": "025",
+    "appetizerName": "sweet cake",
+    "description": "Cake served with mint drink",
+    "imageUrl": "images/Appetiser_sub/app5.jpg",
+    "price": 6.99
+  },
+  {
+    "appetizerId": "026",
+    "appetizerName": "SevPuri",
+    "description": "Sev puri is a traditional street food from Mumbai that is spicy, sweet and full of flavor.",
+    "imageUrl": "images/Appetiser_sub/app6.jpg",
+    "price": 7.99
+  },
+  {
+    "appetizerId": "027",
+    "appetizerName": "Tikka",
+    "description": "Chicken tikka masala is an Indian dish of roasted chunks of chicken tikka in a curry.",
+    "imageUrl": "images/Appetiser_sub/app7.jpg",
+    "price": 12.99
+  },
+  {
+    "appetizerId": "028",
+    "appetizerName": "Pani Puri",
+    "description": "otato, onion, chickpeas, coriander chutney stuffed crispy puri drenched in sour and spicy mint flavored water",
+    "imageUrl": "images/Appetiser_sub/app8.jpg",
+    "price": 17.99
+  },
+  {
+    "appetizerId": "029",
+    "appetizerName": "Banana Wafers",
+    "description": "Tender Banana cooked in coconut oil with indian spices",
+    "imageUrl": "images/Appetiser_sub/app9.jpg",
+    "price": 10.59
+  },
+   {
+    "appetizerId": "030",
+    "appetizerName": "Potato wafers",
+    "description": "Sliced Potato cooked with Rich blend of spices",
+    "imageUrl": "images/Appetiser_sub/app10.jpg",
+    "price": 8.99
+  }
+
+]

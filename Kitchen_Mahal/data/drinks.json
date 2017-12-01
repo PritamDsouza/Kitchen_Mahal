@@ -1,0 +1,72 @@
+﻿[
+  {
+    "drinkId": "001",
+    "drinkName": "Redbull",
+    "description": "Energy Drink",
+    "imageURL": "images/Drinks_sub/redbull.jpg",
+    "price": 5.99
+  },
+  {
+    "drinkId": "002",
+    "drinkName": "Starbucks",
+    "description": "Coffee",
+    "imageURL": "images/Drinks_sub/starbucks.jpg",
+    "price": 4.59
+  },
+  {
+    "drinkId": "003",
+    "drinkName": "SweetTea",
+    "description": "Energy Drink",
+    "imageURL": "images/Drinks_sub/SweetTea.jpg",
+    "price": 6.99
+  },
+  {
+    "drinkId": "004",
+    "drinkName": "Monster",
+    "description": "Energy Drink",
+    "imageURL": "images/Drinks_sub/Monster.png",
+    "price": 4.99
+  },
+  {
+    "drinkId": "005",
+    "drinkName": "Pepsi",
+    "description": "Soda",
+    "imageURL": "images/Drinks_sub/Pepsi.jpg",
+    "price": 5.69
+  },
+  {
+    "drinkId": "006",
+    "drinkName": "Mojito",
+    "description": "Mocktail",
+    "imageURL": "images/Drinks_sub/Mojito.jpg",
+    "price": 8.99
+  },
+  {
+    "drinkId": "007",
+    "drinkName": "Lemonade",
+    "description": "Mocktail",
+    "imageURL": "images/Drinks_sub/Lemon.jpg",
+    "price": 7.99
+  },
+  {
+    "drinkId": "008",
+    "drinkName": "bluelagoon",
+    "description": "Cocktails",
+    "imageURL": "images/Drinks_sub/bluelagoon.jpg",
+    "price": 4.99
+  },
+  {
+    "drinkId": "009",
+    "drinkName": "Vodka",
+    "description": "Alcohol",
+    "imageURL": "images/Drinks_sub/vodka.jpg",
+    "price": 6.99
+  },
+  {
+    "drinkId": "010",
+    "drinkName": "MasalaTea",
+    "description": "Tea",
+    "imageURL": "images/Drinks_sub/MasalaTea.jpg",
+    "price": 9.89
+  }
+]
